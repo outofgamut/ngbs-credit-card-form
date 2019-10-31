@@ -82,3 +82,5 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
+
+Getting an error when trying to run storybook? You need to make sure to add a build section to angular.json for libraries. Check this link -> https://github.com/storybookjs/storybook/issues/6812

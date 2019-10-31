@@ -1,10 +1,11 @@
 {
-  "extends": "../projects/associa-lib/tsconfig.lib.json",
+  "extends": "../tsconfig.json",
   "compilerOptions": {
+    "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "types": ["jasmine", "jasminewd2", "node"]
   },
-  "exclude": ["../src/test.ts", "../src/**/*.spec.ts", "../projects/**/*.spec.ts"],
-  "include": ["../src/**/*", "../projects/**/*"],
+  "exclude": ["../src/test.ts", "../src/**/*.spec.ts", "../libs/**/*.spec.ts"],
+  "include": ["../src/**/*", "../libs/**/*"],
   "files": ["./typings.d.ts"]
 }

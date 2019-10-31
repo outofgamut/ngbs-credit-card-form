@@ -7,6 +7,12 @@
       "sourceRoot": "libs/components/src",
       "prefix": "ngbs-credit-card-form",
       "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "libs/components/tsconfig.lib.json"
+          }
+        },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {

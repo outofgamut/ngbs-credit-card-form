@@ -1,0 +1,17 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "ngbsCreditCardForm",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "ngbs-credit-card-form",
+      "kebab-case"
+    ]
+  }
+}

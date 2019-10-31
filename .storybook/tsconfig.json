@@ -1,0 +1,10 @@
+{
+  "extends": "../projects/associa-lib/tsconfig.lib.json",
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "types": ["jasmine", "jasminewd2", "node"]
+  },
+  "exclude": ["../src/test.ts", "../src/**/*.spec.ts", "../projects/**/*.spec.ts"],
+  "include": ["../src/**/*", "../projects/**/*"],
+  "files": ["./typings.d.ts"]
+}
